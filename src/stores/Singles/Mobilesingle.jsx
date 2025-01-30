@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { mobileData } from "../data/mobiles";
 import Navbar from "../components/Navbar";
-import { useCart } from "../context/cartContext";
+import { useCart } from "../context/CartContext";
 
 function Mobilesingle(){
 
