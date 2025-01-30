@@ -14,7 +14,7 @@ import FridgePage from './stores/pages/FridgePage'
 import BookPage from './stores/pages/Bookpage'
 import './App.css'
 import Mobilesingle from './stores/Singles/Mobilesingle'
-import Usercart from './stores/Usercart'
+import Usercart from './stores/UserCart'
 
 function App() {
 
