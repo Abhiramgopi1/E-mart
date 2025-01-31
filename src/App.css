@@ -173,3 +173,6 @@ ul li{
   background-color: black;
   color: white;
 }
+
+.total-price{
+  align-items: center;
