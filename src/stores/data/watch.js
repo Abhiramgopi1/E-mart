@@ -1,5 +1,5 @@
 export const watchData = [{
-        "id": "1",
+        "id": "1001",
         "product": "Watch",
         "image": "/assets/Watch/1.png",
         "brand": "Apple",
@@ -9,7 +9,7 @@ export const watchData = [{
         "description": "The latest Apple Watch with a larger display and advanced health features."
     },
     {
-        "id": "2",
+        "id": "1002",
         "product": "Watch",
         "image": "/assets/Watch/2.jpg",
         "brand": "Samsung",
@@ -19,7 +19,7 @@ export const watchData = [{
         "description": "A Samsung smartwatch with comprehensive health tracking and versatile design."
     },
     {
-        "id": "3",
+        "id": "1003",
         "product": "Watch",
         "image": "/assets/Watch/3.jpg",
         "brand": "Fitbit",
@@ -29,7 +29,7 @@ export const watchData = [{
         "description": "A Fitbit smartwatch with built-in GPS and fitness tracking capabilities."
     },
     {
-        "id": "4",
+        "id": "1004",
         "product": "Watch",
         "image": "/assets/Watch/4.jpg",
         "brand": "Garmin",
@@ -39,7 +39,7 @@ export const watchData = [{
         "description": "A high-end Garmin GPS watch designed for serious athletes and outdoor enthusiasts."
     },
     {
-        "id": "5",
+        "id": "1005",
         "product": "Watch",
         "image": "/assets/Watch/5.jpg",
         "brand": "Fossil",
@@ -49,7 +49,7 @@ export const watchData = [{
         "description": "A stylish Fossil smartwatch with Wear OS and customizable watch faces."
     },
     {
-        "id": "6",
+        "id": "1006",
         "product": "Watch",
         "image": "/assets/Watch/6.jpg",
         "brand": "Casio",
@@ -59,7 +59,7 @@ export const watchData = [{
         "description": "A rugged and iconic G-Shock watch with a modern and slim design."
     },
     {
-        "id": "7",
+        "id": "1007",
         "product": "Watch",
         "image": "/assets/Watch/7.jpg",
         "brand": "TAG Heuer",
@@ -69,7 +69,7 @@ export const watchData = [{
         "description": "A luxurious TAG Heuer mechanical watch with a sporty and sophisticated design."
     },
     {
-        "id": "8",
+        "id": "1008",
         "product": "Watch",
         "image": "/assets/Watch/8.jpg",
         "brand": "Timex",
@@ -79,7 +79,7 @@ export const watchData = [{
         "description": "A versatile Timex watch with a chronograph function and interchangeable straps."
     },
     {
-        "id": "9",
+        "id": "1009",
         "product": "Watch",
         "image": "/assets/Watch/9.jpg",
         "brand": "Citizen",
@@ -89,7 +89,7 @@ export const watchData = [{
         "description": "A Citizen watch powered by light with durable construction for outdoor adventures."
     },
     {
-        "id": "10",
+        "id": "1010",
         "product": "Watch",
         "image": "/assets/Watch/10.jpg",
         "brand": "Seiko",
@@ -99,7 +99,7 @@ export const watchData = [{
         "description": "A classic Seiko diver's watch known for its reliability and timeless design."
     },
     {
-        "id": "11",
+        "id": "1011",
         "product": "Watch",
         "image": "/assets/Watch/11.jpg",
         "brand": "Michael Kors",
@@ -109,7 +109,7 @@ export const watchData = [{
         "description": "A Michael Kors smartwatch with a luxurious look and smart functionalities."
     },
     {
-        "id": "12",
+        "id": "1012",
         "product": "Watch",
         "image": "/assets/Watch/12.jpg",
         "brand": "Huawei",
