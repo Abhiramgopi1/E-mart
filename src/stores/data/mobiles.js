@@ -1,6 +1,5 @@
 export const mobileData = [{
-
-        "id": "1",
+        "id": "701",
         "product": "Mobile",
         "image": "/assets/NewMobile/1.png",
         "company": "Apple",
@@ -10,7 +9,7 @@ export const mobileData = [{
         "description": "The latest iPhone model with advanced camera capabilities and powerful performance."
     },
     {
-        "id": "2",
+        "id": "702",
         "product": "Mobile",
         "image": "/assets/NewMobile/2.jpg",
         "company": "Samsung",
@@ -20,7 +19,7 @@ export const mobileData = [{
         "description": "A foldable smartphone with a large display and multitasking features."
     },
     {
-        "id": "3",
+        "id": "703",
         "product": "Mobile",
         "image": "/assets/NewMobile/3.jpg",
         "company": "Google",
@@ -30,7 +29,7 @@ export const mobileData = [{
         "description": "A Google Pixel phone with exceptional camera quality and the latest Android features."
     },
     {
-        "id": "4",
+        "id": "704",
         "product": "Mobile",
         "image": "/assets/NewMobile/4.jpg",
         "company": "OnePlus",
@@ -40,7 +39,7 @@ export const mobileData = [{
         "description": "A flagship OnePlus phone known for its smooth performance and fast charging."
     },
     {
-        "id": "5",
+        "id": "705",
         "product": "Mobile",
         "image": "/assets/NewMobile/5.jpg",
         "company": "Xiaomi",
@@ -50,7 +49,7 @@ export const mobileData = [{
         "description": "A high-spec Xiaomi phone with a versatile camera system and powerful hardware."
     },
     {
-        "id": "6",
+        "id": "706",
         "product": "Mobile",
         "image": "/assets/NewMobile/6.jpg",
         "company": "Sony",
@@ -60,7 +59,7 @@ export const mobileData = [{
         "description": "A Sony Xperia phone with a 4K display and pro-level camera features."
     },
     {
-        "id": "7",
+        "id": "707",
         "product": "Mobile",
         "image": "/assets/NewMobile/7.jpg",
         "company": "LG",
@@ -70,7 +69,7 @@ export const mobileData = [{
         "description": "An LG smartphone with AI-enhanced features and a sleek design."
     },
     {
-        "id": "8",
+        "id": "708",
         "product": "Mobile",
         "image": "/assets/NewMobile/8.jpg",
         "company": "Motorola",
@@ -80,7 +79,7 @@ export const mobileData = [{
         "description": "A Motorola Edge phone with 5G capabilities and a high-refresh-rate display."
     },
     {
-        "id": "9",
+        "id": "709",
         "product": "Mobile",
         "image": "/assets/NewMobile/9.jpg",
         "company": "Huawei",
@@ -90,7 +89,7 @@ export const mobileData = [{
         "description": "A Huawei flagship phone with advanced camera technology and sleek aesthetics."
     },
     {
-        "id": "10",
+        "id": "710",
         "product": "Mobile",
         "image": "/assets/NewMobile/10.jpg",
         "company": "Oppo",
@@ -100,7 +99,7 @@ export const mobileData = [{
         "description": "An Oppo Find X phone with innovative design and impressive camera features."
     },
     {
-        "id": "11",
+        "id": "711",
         "product": "Mobile",
         "image": "/assets/NewMobile/11.jpg",
         "company": "Nokia",
@@ -110,7 +109,7 @@ export const mobileData = [{
         "description": "A Nokia smartphone with 5G connectivity and a focus on reliability."
     },
     {
-        "id": "12",
+        "id": "712",
         "product": "Mobile",
         "image": "/assets/NewMobile/12.jpg",
         "company": "Realme",
