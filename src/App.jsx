@@ -14,6 +14,7 @@ import FridgePage from './stores/pages/FridgePage'
 import BookPage from './stores/pages/Bookpage'
 import './App.css'
 import Mobilesingle from './stores/Singles/Mobilesingle'
+<<<<<<< HEAD
 import Usercart from './stores/Usercart'
 import Navbar from './stores/components/Navbar'
 import ACpage from './stores/pages/ACpage'
@@ -28,6 +29,10 @@ import Fridgesingle from './stores/Singles/Fridgesingle'
 import TVsingle from './stores/Singles/TVsingle'
 import Booksingle from './stores/Singles/Booksingle'
 import Speakersingle from './stores/Singles/Speakersingle'
+=======
+import Usercart from './stores/UserCart'
+
+>>>>>>> 5a9200eb5ae3e2b4af322dd9fd8ae57b2703426d
 function App() {
 
   return (

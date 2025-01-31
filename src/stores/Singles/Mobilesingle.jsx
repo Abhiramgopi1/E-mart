@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { mobileData } from "../data/mobiles";
+<<<<<<< HEAD
+=======
+import Navbar from "../components/Navbar";
+>>>>>>> 5a9200eb5ae3e2b4af322dd9fd8ae57b2703426d
 import { useCart } from "../context/CartContext";
 
 function Mobilesingle(){

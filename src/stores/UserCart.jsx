@@ -1,5 +1,7 @@
-import React from "react";
-import { useCart } from "./context/CartContext";
+import React from 'react'
+import Navbar from './components/Navbar';
+import { useCart } from './context/cartContext';
+
 
 const UserCart = () => {
   const { cartItems, addToCart, removeFromCart } = useCart();
@@ -51,4 +53,4 @@ const UserCart = () => {
   );
 };
 
-export default UserCart;
+export default UserCart
