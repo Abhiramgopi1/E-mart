@@ -1,5 +1,5 @@
 export const furnitureData = [{
-        "id": "1",
+        "id": "401",
         "product": "Furniture",
         "image": "/assets/Furniture/1.jpg",
         "type": "Sofa",
@@ -10,7 +10,7 @@ export const furnitureData = [{
         "description": "A comfortable and modern sofa with plush cushions and a sleek design."
     },
     {
-        "id": "2",
+        "id": "402",
         "product": "Furniture",
         "image": "/assets/Furniture/2.jpg",
         "type": "Dining Table",
@@ -21,18 +21,18 @@ export const furnitureData = [{
         "description": "An elegant dining table with solid wood construction and expandable design."
     },
     {
-        "id": "3",
+        "id": "403",
         "product": "Furniture",
         "image": "/assets/Furniture/3.jpg",
         "type": "Bed",
-        "brand": "Ashley ",
+        "brand": "Ashley",
         "model": "DreamRest",
         "price": "799.50",
         "category": "Home",
         "description": "A stylish and comfortable bed with upholstered headboard and durable frame."
     },
     {
-        "id": "4",
+        "id": "404",
         "product": "Furniture",
         "image": "/assets/Furniture/4.jpg",
         "type": "Coffee Table",
@@ -43,7 +43,7 @@ export const furnitureData = [{
         "description": "A modern coffee table with a blend of materials, adding character to your living room."
     },
     {
-        "id": "5",
+        "id": "405",
         "product": "Furniture",
         "image": "/assets/Furniture/5.jpg",
         "type": "Wardrobe",
@@ -54,7 +54,7 @@ export const furnitureData = [{
         "description": "A space-saving wardrobe with versatile storage compartments and sleek appearance."
     },
     {
-        "id": "6",
+        "id": "406",
         "product": "Furniture",
         "image": "/assets/Furniture/6.jpg",
         "type": "Bookshelf",
@@ -65,7 +65,7 @@ export const furnitureData = [{
         "description": "A functional bookshelf with adjustable shelves, suitable for any room."
     },
     {
-        "id": "7",
+        "id": "407",
         "product": "Furniture",
         "image": "/assets/Furniture/7.jpg",
         "type": "Desk",
@@ -76,7 +76,7 @@ export const furnitureData = [{
         "description": "A spacious office desk with ergonomic design and ample storage."
     },
     {
-        "id": "8",
+        "id": "408",
         "product": "Furniture",
         "image": "/assets/Furniture/8.jpg",
         "type": "Bar Stool",
@@ -87,7 +87,7 @@ export const furnitureData = [{
         "description": "An urban chic bar stool with a contemporary look, perfect for kitchen islands."
     },
     {
-        "id": "9",
+        "id": "409",
         "product": "Furniture",
         "image": "/assets/Furniture/9.jpg",
         "type": "Dresser",
@@ -98,7 +98,7 @@ export const furnitureData = [{
         "description": "A rustic dresser with ample storage space and charming distressed finish."
     },
     {
-        "id": "10",
+        "id": "410",
         "product": "Furniture",
         "image": "/assets/Furniture/10.jpg",
         "type": "Couch",
@@ -109,7 +109,7 @@ export const furnitureData = [{
         "description": "A comfortable couch with deep seating and modern design, perfect for lounging."
     },
     {
-        "id": "11",
+        "id": "411",
         "product": "Furniture",
         "image": "/assets/Furniture/11.jpg",
         "type": "Side Table",
@@ -120,7 +120,7 @@ export const furnitureData = [{
         "description": "A minimalist side table with clean lines, adding functionality to any space."
     },
     {
-        "id": "12",
+        "id": "412",
         "product": "Furniture",
         "image": "/assets/Furniture/12.jpg",
         "type": "Bedside Table",
