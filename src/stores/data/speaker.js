@@ -1,5 +1,5 @@
 export const speakerData = [{
-        "id" : "1",
+        "id" : "801",
         "product": "Speaker",
         "image": "assets/speakers/1.jpg",
         "brand": "Bose",
@@ -9,7 +9,7 @@ export const speakerData = [{
         "description": "A portable Bluetooth speaker with 360-degree sound and long battery life."
     },
     {
-        "id" : "2",
+        "id" : "802",
         "product": "Speaker",
         "image": "assets/speakers/2.jpg",
         "brand": "Sonos",
@@ -19,7 +19,7 @@ export const speakerData = [{
         "description": "A compact speaker with rich sound and the ability to pair with other Sonos speakers."
     },
     {
-        "id" : "3",
+        "id" : "803",
         "product": "Speaker",
         "image": "assets/speakers/3.jpg",
         "brand": "JBL",
@@ -29,7 +29,7 @@ export const speakerData = [{
         "description": "A waterproof portable speaker with powerful bass and vibrant colors."
     },
     {
-        "id" : "4",
+        "id" : "804",
         "product": "Speaker",
         "image": "assets/speakers/4.jpg",
         "brand": "Sony",
@@ -39,7 +39,7 @@ export const speakerData = [{
         "description": "A high-powered Bluetooth speaker with extra bass and built-in party lights."
     },
     { 
-        "id" : "5",
+        "id" : "805",
         "product": "Speaker",
         "image": "assets/speakers/5.jpg",
         "brand": "Ultimate Ears",
@@ -49,7 +49,7 @@ export const speakerData = [{
         "description": "A rugged and waterproof speaker with 360-degree sound and customizable EQ."
     },
     {
-        "id" : "6",
+        "id" : "806",
         "product": "Speaker",
         "image": "assets/speakers/6.jpg",
         "brand": "Harman Kardon",
@@ -59,7 +59,7 @@ export const speakerData = [{
         "description": "A visually striking speaker with ambient lighting and powerful audio quality."
     },
     {
-        "id" : "7",
+        "id" : "807",
         "product": "Speaker",
         "image": "assets/speakers/7.jpg",
         "brand": "Anker",
@@ -69,7 +69,7 @@ export const speakerData = [{
         "description": "A portable speaker with 360-degree sound, customizable lighting, and IPX7 waterproof rating."
     },
     {
-        "id" : "8",
+        "id" : "808",
         "product": "Speaker",
         "image": "assets/speakers/8.jpg",
         "brand": "Marshall",
@@ -79,7 +79,7 @@ export const speakerData = [{
         "description": "A vintage-styled speaker with classic rock aesthetics and powerful audio output."
     },
     {
-        "id" : "9",
+        "id" : "809",
         "product": "Speaker",
         "image": "assets/speakers/9.jpg",
         "brand": "Bose",
@@ -89,7 +89,7 @@ export const speakerData = [{
         "description": "A smart speaker with voice control and spacious sound, suitable for home audio."
     },
     {
-        "id" : "10",
+        "id" : "810",
         "product": "Speaker",
         "image": "assets/speakers/10.jpg",
         "brand": "Yamaha",
@@ -99,7 +99,7 @@ export const speakerData = [{
         "description": "A wireless speaker with multi-room audio support and clear sound quality."
     },
     {
-        "id" : "11",
+        "id" : "811",
         "product": "Speaker",
         "image": "assets/speakers/11.jpg",
         "brand": "Bang & Olufsen",
@@ -109,7 +109,7 @@ export const speakerData = [{
         "description": "A high-end wireless speaker with a distinctive design and exceptional sound."
     },
     {
-        "id" : "12",
+        "id" : "812",
         "product": "Speaker",
         "image": "assets/speakers/12.jpg",
         "brand": "UE",
