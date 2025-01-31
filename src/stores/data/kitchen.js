@@ -1,5 +1,5 @@
 export const kitchenData = [{
-        "id": "1",
+        "id": "501",
         "product": "Kitchen",
         "image": "/assets/Kitchen/1.jpg",
         "type": "Blender",
@@ -10,7 +10,7 @@ export const kitchenData = [{
         "description": "A powerful blender for smoothies, soups, and more, with variable speed control."
     },
     {
-        "id": "2",
+        "id": "502",
         "product": "Kitchen",
         "image": "/assets/Kitchen/2.jpg",
         "type": "Cookware Set",
@@ -21,7 +21,7 @@ export const kitchenData = [{
         "description": "A comprehensive cookware set featuring nonstick surfaces and durable construction."
     },
     {
-        "id": "3",
+        "id": "503",
         "product": "Kitchen",
         "image": "/assets/Kitchen/3.jpg",
         "type": "Coffee Maker",
@@ -32,7 +32,7 @@ export const kitchenData = [{
         "description": "A versatile coffee maker with multiple brew sizes and strong brew option."
     },
     {
-        "id": "4",
+        "id": "504",
         "product": "Kitchen",
         "image": "/assets/Kitchen/4.jpg",
         "type": "Knife Set",
@@ -43,7 +43,7 @@ export const kitchenData = [{
         "description": "A high-quality knife set featuring essential knives and a stylish knife block."
     },
     {
-        "id": "5",
+        "id": "505",
         "product": "Kitchen",
         "image": "/assets/Kitchen/5.jpg",
         "type": "Stand Mixer",
@@ -54,7 +54,7 @@ export const kitchenData = [{
         "description": "An iconic stand mixer known for its versatility and wide range of attachments."
     },
     {
-        "id": "6",
+        "id": "506",
         "product": "Kitchen",
         "image": "/assets/Kitchen/6.png",
         "type": "Baking Set",
@@ -65,7 +65,7 @@ export const kitchenData = [{
         "description": "A practical baking set with various glass containers for baking, storing, and serving."
     },
     {
-        "id": "7",
+        "id": "507",
         "product": "Kitchen",
         "image": "/assets/Kitchen/7.jpg",
         "type": "Rice Cooker",
@@ -76,7 +76,7 @@ export const kitchenData = [{
         "description": "A sophisticated rice cooker with advanced fuzzy logic technology for perfect rice every time."
     },
     {
-        "id": "8",
+        "id": "508",
         "product": "Kitchen",
         "image": "/assets/Kitchen/8.jpg",
         "type": "Utensil Set",
@@ -87,7 +87,7 @@ export const kitchenData = [{
         "description": "A versatile utensil set with comfortable grips and a variety of kitchen tools."
     },
     {
-        "id": "9",
+        "id": "509",
         "product": "Kitchen",
         "image": "/assets/Kitchen/9.jpg",
         "type": "Food Processor",
@@ -98,7 +98,7 @@ export const kitchenData = [{
         "description": "A powerful food processor for chopping, slicing, and shredding ingredients."
     },
     {
-        "id": "10",
+        "id": "510",
         "product": "Kitchen",
         "image": "/assets/Kitchen/10.jpg",
         "type": "Mixer",
@@ -109,7 +109,7 @@ export const kitchenData = [{
         "description": "A handheld mixer with multiple speed settings for blending, whipping, and mixing."
     },
     {
-        "id": "11",
+        "id": "511",
         "product": "Kitchen",
         "image": "/assets/Kitchen/11.jpg",
         "type": "Dish Set",
@@ -120,7 +120,7 @@ export const kitchenData = [{
         "description": "A durable and lightweight dish set suitable for everyday dining and special occasions."
     },
     {
-        "id": "12",
+        "id": "512",
         "product": "Kitchen",
         "image": "/assets/Kitchen/12.jpg",
         "type": "Slow Cooker",
