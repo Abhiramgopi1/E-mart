@@ -1,5 +1,5 @@
 export const tvData = [{
-        "id": "1",
+        "id": "901",
         "product": "TV",
         "image": "assets/TV/1.jpg",
         "brand": "LG",
@@ -9,7 +9,7 @@ export const tvData = [{
         "description": "A high-end OLED TV with stunning picture quality and smart features."
     },
     {
-        "id": "2",
+        "id": "902",
         "product": "TV",
         "image": "assets/TV/2.jpg",
         "brand": "Sony",
@@ -19,7 +19,7 @@ export const tvData = [{
         "description": "A 4K LED TV with advanced processing and immersive audio technology."
     },
     {
-        "id": "3",
+        "id": "903",
         "product": "TV",
         "image": "assets/TV/3.jpg",
         "brand": "Samsung",
@@ -29,7 +29,7 @@ export const tvData = [{
         "description": "A QLED TV with vibrant colors and impressive upscaling capabilities."
     },
     {
-        "id": "4",
+        "id": "904",
         "product": "TV",
         "image": "assets/TV/4.jpg",
         "brand": "TCL",
@@ -39,7 +39,7 @@ export const tvData = [{
         "description": "An affordable 4K TV with Dolby Vision HDR and Roku smart platform."
     },
     {
-        "id": "5",
+        "id": "905",
         "product": "TV",
         "image": "assets/TV/5.jpg",
         "brand": "Vizio",
@@ -49,7 +49,7 @@ export const tvData = [{
         "description": "A quantum dot 4K TV with high brightness and local dimming zones."
     },
     {
-        "id": "6",
+        "id": "906",
         "product": "TV",
         "image": "assets/TV/6.jpg",
         "brand": "Hisense",
@@ -59,7 +59,7 @@ export const tvData = [{
         "description": "A ULED TV with impressive contrast and support for various HDR formats."
     },
     {
-        "id": "7",
+        "id": "907",
         "product": "TV",
         "image": "assets/TV/7.jpg",
         "brand": "Panasonic",
@@ -69,7 +69,7 @@ export const tvData = [{
         "description": "A flagship OLED TV with customized professional-grade picture quality."
     },
     {
-        "id": "8",
+        "id": "908",
         "product": "TV",
         "image": "assets/TV/8.jpg",
         "brand": "Sharp",
@@ -79,7 +79,7 @@ export const tvData = [{
         "description": "A 5G-compatible 4K TV with detailed images and advanced connectivity."
     },
     {
-        "id": "9",
+        "id": "909",
         "product": "TV",
         "image": "assets/TV/9.jpg",
         "brand": "Philips",
@@ -89,7 +89,7 @@ export const tvData = [{
         "description": "A 4K TV with Ambilight technology, creating an immersive viewing experience."
     },
     {
-        "id": "10",
+        "id": "910",
         "product": "TV",
         "image": "assets/TV/10.jpg",
         "brand": "Sceptre",
@@ -99,7 +99,7 @@ export const tvData = [{
         "description": "An affordable full HD TV with basic features for everyday entertainment."
     },
     {
-        "id": "11",
+        "id": "911",
         "product": "TV",
         "image": "assets/TV/11.jpg",
         "brand": "Insignia",
@@ -109,7 +109,7 @@ export const tvData = [{
         "description": "A budget-friendly 4K TV with built-in Fire TV and Alexa voice control."
     },
     {
-        "id": "12",
+        "id": "912",
         "product": "TV",
         "image": "assets/TV/12.jpg",
         "brand": "Samsung",
