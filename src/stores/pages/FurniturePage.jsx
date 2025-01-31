@@ -1,20 +1,22 @@
 
 import {    furnitureData } from "../data/furniture"
-import Navbar from "../components/Navbar"
+import { Link } from "react-router-dom"
+
 function Furniturepage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 furnitureData.map((item)=>{
                     return(
                         <div>
+                            <Link to = {`/furniture/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
                             <div className="promodel">
-                                {item.company}, {item.model}
+                                {item.brand}, {item.model}
                             </div>
                         </div>
                     )

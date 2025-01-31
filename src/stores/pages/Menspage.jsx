@@ -1,18 +1,20 @@
 
 import { menData } from "../data/men"
-import Navbar from "../components/Navbar"
+import { Link } from "react-router-dom"
 function Menspage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 menData.map((item)=>{
                     return(
                         <div>
+                            <Link to = {`/Menswear/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
+                            
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>

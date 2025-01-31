@@ -72,6 +72,8 @@ body{
   display: grid;
   grid-template-columns: repeat(4,300px);
   gap: 10px;
+  justify-content: space-around;
+  margin-left: 40px;
 }
 
 .pageimg{
@@ -80,12 +82,15 @@ body{
 }
 
 .pageimg img{
-  width: 100%;
+  width: 80%;
+  height: 90%;
+  margin: 10px;
 }
 
 .ind-img{
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 250px;
+  margin: 30px;
 }
 
 .ind-page{
@@ -142,4 +147,29 @@ ul li{
   font-size: x-large;
   margin-left: 5px;
   font-weight: 600;
+}
+
+
+.cart-section {
+  display: flex;
+  border: 3px double gray;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.cart-img img {
+  width: 50%;
+}
+
+.cart-details {
+  width: 50%;
+}
+
+.itemcount{
+  width: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
 }

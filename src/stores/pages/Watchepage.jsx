@@ -1,18 +1,21 @@
 
 import { watchData } from "../data/watch"
-import Navbar from "../components/Navbar"
+import { Link } from "react-router-dom"
+
 function Watchepage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 watchData.map((item)=>{
                     return(
                         <div>
-                            <div className="pageimg">
-                                <img src={item.image} alt="" />
-                            </div>
+                            <Link to = {`/Watches/${item.id}`}>
+                            <div className="ind-img">
+                                    <img src={item.image} alt="" />
+                                </div>
+
+                            </Link>
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>

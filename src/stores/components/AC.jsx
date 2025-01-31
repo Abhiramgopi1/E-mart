@@ -1,5 +1,6 @@
 import React from 'react'
 import { acData } from '../data/ac'
+import { Link } from 'react-router-dom';
 
 function AC() {
     const firstfiveimg = acData.slice(0,5);
@@ -8,6 +9,7 @@ function AC() {
         <div className="pro-title">
             <h2>AC'S</h2>
         </div>
+        <Link to="/acs">
         <div className='proSection'>
         {
             firstfiveimg.map((item)=>{
@@ -19,6 +21,7 @@ function AC() {
             })
         }
     </div>
+        </Link>
     </>
     )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import {computerData} from "../data/computers";
+import { Link } from "react-router-dom";
 
 function Computers() {
     const firstfiveimg = computerData.slice(0,5);
@@ -8,6 +9,7 @@ function Computers() {
         <div className="pro-title">
             <h2>Computers</h2>
         </div>
+        <Link to = "/computers">
         <div className="proSection">
             {
              firstfiveimg.map((item)=>{
@@ -19,6 +21,7 @@ function Computers() {
            })
         }
         </div>   
+        </Link>
         </>
     )
 }

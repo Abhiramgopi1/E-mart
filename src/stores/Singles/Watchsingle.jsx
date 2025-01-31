@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { mobileData } from "../data/mobiles";
+import { watchData } from "../data/watch";
 import { useCart } from "../context/CartContext";
 
-function Mobilesingle(){
+function Watchsingle(){
 
     const {id} = useParams()
 
     const {addToCart, cartItems} = useCart();
 
-    const product = mobileData.find((item) => item.id === id); 
+    const product = watchData.find((item) => item.id === id); 
 
     return(
         <>
@@ -44,4 +44,4 @@ function Mobilesingle(){
     )
 }
 
-export default Mobilesingle
+export default Watchsingle

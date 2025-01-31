@@ -1,5 +1,6 @@
 import React from 'react'
 import {  watchData } from '../data/watch'
+import { Link } from 'react-router-dom';
 
 function Watches() {
     const firstfiveimg = watchData.slice(0,5);
@@ -8,6 +9,7 @@ function Watches() {
         <div className="pro-title">
             <h2>Watches</h2>
         </div>
+        <Link to = "/watches">
         <div className='proSection'>
         {
             firstfiveimg.map((item)=>{
@@ -19,6 +21,7 @@ function Watches() {
             })
         }
     </div>
+        </Link>
     </>
     )
 }

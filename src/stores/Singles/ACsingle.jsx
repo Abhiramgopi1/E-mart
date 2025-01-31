@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { mobileData } from "../data/mobiles";
+import { acData } from "../data/ac";
 import { useCart } from "../context/CartContext";
 
-function Mobilesingle(){
+function ACsingle(){
 
     const {id} = useParams()
 
     const {addToCart, cartItems} = useCart();
 
-    const product = mobileData.find((item) => item.id === id); 
+    const product = acData.find((item) => item.id === id); 
 
     return(
         <>
         <div className="ind-page">
-            <div className="ind-img">
+        <div className="ind-img">
                 <img src={product.image} alt="" />
             </div>
-
             <div className="ind-details space">
                 <div className="ind-company">
                     <h2>{product.company}</h2>
@@ -44,4 +43,4 @@ function Mobilesingle(){
     )
 }
 
-export default Mobilesingle
+export default ACsingle

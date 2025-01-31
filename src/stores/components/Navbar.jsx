@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useCart } from '../context/cartContext'
+import { useCart } from '../context/CartContext'
 
 function Navbar(){
     const {cartItems }= useCart()
@@ -27,6 +27,7 @@ function Navbar(){
         </div>
         <div className="subMenu">
                 <ul>
+                    <Link to = "/" className='custom-link'><li>Home</li></Link>
                     <Link to = "/mobiles" className="custom-link"><li>Mobiles</li></Link>
                     <Link to = "/Computers" className="custom-link"><li>Computers</li></Link>
                     <Link to = "/Watches" className="custom-link"><li>Watches</li></Link>
@@ -34,7 +35,7 @@ function Navbar(){
                     <Link to = "/Womenswear" className="custom-link"><li>Womens Wear</li></Link>
                     <Link to = "/furniture" className="custom-link"><li>Furniture</li></Link>
                     <Link to = "/kitchen" className="custom-link"><li>Kitchen</li></Link>
-                    <Link to = "/mobiles" className="custom-link"><li>Ac's</li></Link>
+                    <Link to = "/acs" className="custom-link"><li>Ac's</li></Link>
                     <Link to = "/fridge" className="custom-link"><li>Fridge</li></Link>
                     <Link to = "/TVs" className="custom-link"><li>TV's</li></Link>
                     <Link to = "/books" className="custom-link"><li>Books</li></Link>

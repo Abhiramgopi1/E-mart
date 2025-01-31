@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { mobileData } from "../data/mobiles";
+import { kitchenData } from "../data/kitchen";
 import { useCart } from "../context/CartContext";
 
-function Mobilesingle(){
+function Kitchensingle(){
 
     const {id} = useParams()
 
     const {addToCart, cartItems} = useCart();
 
-    const product = mobileData.find((item) => item.id === id); 
+    const product = kitchenData.find((item) => item.id === id); 
 
     return(
         <>
@@ -44,4 +44,4 @@ function Mobilesingle(){
     )
 }
 
-export default Mobilesingle
+export default Kitchensingle

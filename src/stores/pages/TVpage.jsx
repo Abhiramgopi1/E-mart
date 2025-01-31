@@ -1,18 +1,20 @@
 
+import { Link } from "react-router-dom"
 import { tvData } from "../data/tv"
-import Navbar from "../components/Navbar"
+
 function TVpage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 tvData.map((item)=>{
                     return(
                         <div>
+                            <Link to={`/TVs/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>

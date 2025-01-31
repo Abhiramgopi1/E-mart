@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { mobileData } from "../data/mobiles";
+import { speakerData } from "../data/speaker";
 import { useCart } from "../context/CartContext";
 
-function Mobilesingle(){
+function Speakersingle(){
 
     const {id} = useParams()
 
-    const {addToCart, cartItems} = useCart();
+    const {addToCart } = useCart();
 
-    const product = mobileData.find((item) => item.id === id); 
-
+    const product = speakerData.find((item) => item.id === id); 
+    
     return(
         <>
         <div className="ind-page">
@@ -44,4 +44,4 @@ function Mobilesingle(){
     )
 }
 
-export default Mobilesingle
+export default Speakersingle

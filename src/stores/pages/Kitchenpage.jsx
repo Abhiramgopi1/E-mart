@@ -1,20 +1,21 @@
 
 import { kitchenData } from "../data/kitchen"
-import Navbar from "../components/Navbar"
+import {Link} from 'react-router-dom';
 function Kitchenpage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 kitchenData.map((item)=>{
                     return(
                         <div>
+                            <Link to = {`/kitchen/${item.id} ` }>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
                             <div className="promodel">
-                                {item.company}, {item.model}
+                                {item.brand}, {item.model}
                             </div>
                         </div>
                     )

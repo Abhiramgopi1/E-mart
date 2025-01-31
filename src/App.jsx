@@ -15,11 +15,25 @@ import BookPage from './stores/pages/Bookpage'
 import './App.css'
 import Mobilesingle from './stores/Singles/Mobilesingle'
 import Usercart from './stores/Usercart'
-
+import Navbar from './stores/components/Navbar'
+import ACpage from './stores/pages/ACpage'
+import Computersingle from './stores/Singles/Computersingle'
+import Watchsingle from './stores/Singles/Watchsingle'
+import Mensingle from './stores/Singles/Mensingle'
+import Womensingle from './stores/Singles/Womensingle'
+import Furnituresingle from './stores/Singles/Furnituresingle'
+import Kitchensingle from './stores/Singles/Kitchensingle'
+import ACsingle from './stores/Singles/ACsingle'
+import Fridgesingle from './stores/Singles/Fridgesingle'
+import TVsingle from './stores/Singles/TVsingle'
+import Booksingle from './stores/Singles/Booksingle'
+import Speakersingle from './stores/Singles/Speakersingle'
 function App() {
 
   return (
-      <div>
+    <>
+    <Navbar/>
+    <div>
         <Routes>
           <Route path='/' element={<Landingpage/>}/>
           <Route path='/Mobiles' element={<Mobilepage/>}/>
@@ -33,10 +47,25 @@ function App() {
           <Route path='/Speaker' element={<Speakerpage/>}/>
           <Route path='/fridge' element={<FridgePage/>}/>
           <Route path='/books' element={<BookPage/>}/>
+          <Route path='/acs' element={<ACpage/>}/>
           <Route path='/Mobiles/:id' element={<Mobilesingle/>}/>
+          <Route path='/Computers/:id' element={<Computersingle/>}/>
+          <Route path='/Watches/:id' element={<Watchsingle/>}/>
+          <Route path='/Menswear/:id' element={<Mensingle/>}/>
+          <Route path='/Womenswear/:id' element={<Womensingle/>}/>
+          <Route path='/TVs/:id' element={<TVsingle/>}/>
+          <Route path='/furniture/:id' element={<Furnituresingle/>}/>
+          <Route path='/kitchen/:id' element={<Kitchensingle/>}/>
+          <Route path='/Speaker/:id' element={<Speakersingle/>}/>
+          <Route path='/fridge/:id' element={<Fridgesingle/>}/>
+          <Route path='/books/:id' element={< Booksingle/>}/>
+          <Route path='/acs/:id' element={<ACsingle/>}/>
+          
           <Route path='/cart' element={<Usercart/>}/>
         </Routes>
       </div>
+    </>
+      
   )
 }
 

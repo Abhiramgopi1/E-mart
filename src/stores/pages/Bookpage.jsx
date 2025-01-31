@@ -1,20 +1,22 @@
 
+import { Link } from "react-router-dom"
 import { booksData } from "../data/books"
-import Navbar from "../components/Navbar"
+
 function Bookpage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 booksData.map((item)=>{
                     return(
                         <div>
+                            <Link to={`/books/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
                             <div className="promodel">
-                                {item.title}, Written By {item.author}
+                                <h4>{item.title}</h4>Written By {item.author}
                             </div>
                         </div>
                     )

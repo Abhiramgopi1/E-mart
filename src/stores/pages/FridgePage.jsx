@@ -1,18 +1,20 @@
 
+import { Link } from "react-router-dom"
 import { fridgeData } from "../data/fridge"
-import Navbar from "../components/Navbar"
+
 function FridgePage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 fridgeData.map((item)=>{
                     return(
                         <div>
+                            <Link to={`/fridge/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>

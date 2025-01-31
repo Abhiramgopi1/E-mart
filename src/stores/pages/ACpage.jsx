@@ -1,18 +1,19 @@
 
 import { acData } from "../data/ac"
-import Navbar from "../components/Navbar"
+import { Link } from "react-router-dom"
 function ACpage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 acData.map((item)=>{
                     return(
                         <div>
+                            <Link to = {`/acs/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
                             <div className="promodel">
                                 {item.company}, {item.model}
                             </div>

@@ -1,18 +1,20 @@
 
+import { Link } from "react-router-dom"
 import { speakerData } from "../data/speaker"
-import Navbar from "../components/Navbar"
+
 function Speakerpage(){
     return(
         <>
-        <Navbar/>
         <div className="page-section">
             {
                 speakerData.map((item)=>{
                     return(
                         <div>
+                            <Link to={`/speaker/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
                             </div>
+                            </Link>
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>
