@@ -11,6 +11,7 @@ const UserCart = () => {
   return (
     <>
       <div>
+        <center>
         <h2 className="y-cart">Your Cart</h2>
         {cartItems.length === 0 ? (
           <p className="empty">Your Cart is Empty</p>
@@ -53,6 +54,7 @@ const UserCart = () => {
             </div>
           </div>
         )}
+        </center>
       </div>
     </>
   );
