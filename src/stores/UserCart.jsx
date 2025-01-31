@@ -49,7 +49,7 @@ const UserCart = () => {
               );
             })}
             <div className="total-price">
-              <h3>`Total Price: ${totalPrice.toFixed(2)}`</h3>
+              <h3>Total Price: {totalPrice.toFixed(2)}</h3>
             </div>
           </div>
         )}
