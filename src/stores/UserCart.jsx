@@ -22,7 +22,7 @@ const UserCart = () => {
                   </div>
                   <div className="cart-details">
                     <h3>{item.product}</h3>
-                    <h2>{item.price}</h2>
+                    <h2>{item.price * item.count}</h2>
                     <h3>{item.model}</h3>
                   </div>
 
