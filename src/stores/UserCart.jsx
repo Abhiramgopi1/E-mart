@@ -5,7 +5,9 @@ import { useCart } from './context/CartContext';
 
 const UserCart = () => {
   const { cartItems, addToCart, removeFromCart } = useCart();
-
+  const totalPrice = cartItems.reduce((total, item) => {
+    return total + item.price * item.count;
+  }, 0);
   return (
     <>
       <div>
@@ -46,6 +48,9 @@ const UserCart = () => {
                 </div>
               );
             })}
+            <div className="total-price">
+              <h3>Total Price: ${totalPrice.toFixed(2)}</h3>
+            </div>
           </div>
         )}
       </div>
