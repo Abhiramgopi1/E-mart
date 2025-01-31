@@ -1,5 +1,5 @@
 export const computerData = [{
-        "id": "1",
+        "id": "201",
         "product": "Computer",
         "image": "/assets/Computers/12.jpg",
         "company": "Dell",
@@ -9,7 +9,7 @@ export const computerData = [{
         "description": "A versatile laptop with powerful performance and a sleek design."
     },
     {
-        "id": "2",
+        "id": "202",
         "product": "Computer",
         "image": "/assets/Computers/4.jpg",
         "company": "HP",
@@ -19,7 +19,7 @@ export const computerData = [{
         "description": "An all-in-one desktop PC with a large display and high-speed processing."
     },
     {
-        "id": "3",
+        "id": "203",
         "product": "Computer",
         "image": "/assets/Computers/3.jpg",
         "company": "Apple",
@@ -29,7 +29,7 @@ export const computerData = [{
         "description": "An ultrathin and lightweight laptop known for its portability and smooth performance."
     },
     {
-        "id": "4",
+        "id": "204",
         "product": "Computer",
         "image": "/assets/Computers/11.jpg",
         "company": "Lenovo",
@@ -39,7 +39,7 @@ export const computerData = [{
         "description": "A flexible 2-in-1 laptop with touchscreen capabilities and powerful processing."
     },
     {
-        "id": "5",
+        "id": "205",
         "product": "Computer",
         "image": "/assets/Computers/5.jpg",
         "company": "Acer",
@@ -49,7 +49,7 @@ export const computerData = [{
         "description": "A gaming laptop with high-performance graphics and advanced cooling technology."
     },
     {
-        "id": "6",
+        "id": "206",
         "product": "Computer",
         "image": "/assets/Computers/6.jpg",
         "company": "Microsoft",
@@ -59,7 +59,7 @@ export const computerData = [{
         "description": "A versatile 2-in-1 tablet and laptop with a detachable keyboard and stylus support."
     },
     {
-        "id": "7",
+        "id": "207",
         "product": "Computer",
         "image": "/assets/Computers/7.jpg",
         "company": "Asus",
@@ -69,7 +69,7 @@ export const computerData = [{
         "description": "A compact laptop with a premium build, strong performance, and long battery life."
     },
     {
-        "id": "8",
+        "id": "208",
         "product": "Computer",
         "image": "/assets/Computers/8.jpg",
         "company": "Alienware",
@@ -79,7 +79,7 @@ export const computerData = [{
         "description": "A high-end gaming desktop with customizable components and advanced graphics capabilities."
     },
     {
-        "id": "9",
+        "id": "209",
         "product": "Computer",
         "image": "/assets/Computers/9.jpg",
         "company": "HP",
@@ -89,7 +89,7 @@ export const computerData = [{
         "description": "A business laptop with robust security features, reliable performance, and sleek design."
     },
     {
-        "id": "10",
+        "id": "210",
         "product": "Computer",
         "image": "/assets/Computers/10.jpg",
         "company": "Lenovo",
@@ -99,7 +99,7 @@ export const computerData = [{
         "description": "A compact and powerful desktop computer suitable for business and productivity tasks."
     },
     {
-        "id": "11",
+        "id": "211",
         "product": "Computer",
         "image": "/assets/Computers/2.jpg",
         "company": "Dell",
@@ -109,7 +109,7 @@ export const computerData = [{
         "description": "A premium ultrabook with a stunning display, strong performance, and sleek design."
     },
     {
-        "id": "12",
+        "id": "212",
         "product": "Computer",
         "image": "/assets/Computers/1.jpg",
         "company": "Acer",
