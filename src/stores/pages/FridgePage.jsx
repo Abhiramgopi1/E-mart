@@ -10,6 +10,7 @@ function FridgePage(){
                 fridgeData.map((item)=>{
                     return(
                         <div>
+                            <center>
                             <Link to={`/fridge/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
@@ -18,6 +19,7 @@ function FridgePage(){
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>
+                            </center>
                         </div>
                     )
                 })
