@@ -2,10 +2,7 @@ import React from 'react'
 import Mobiles from './Mobiles'
 import Computers from './computers'
 import Watches from './watches'
-import Men from './Men'
-import Women from './Women'
-import Furniture from './Furniture'
-import Kitchen from './Kitchen'
+import TV from './Tvs'
 import AC from './AC'
 
 function products(){
@@ -14,10 +11,7 @@ function products(){
             <Mobiles/>
             <Computers/>
             <Watches/>
-            <Men/>
-            <Women/>
-            <Furniture/>
-            <Kitchen/>
+            <TV/>
             <AC/>
         </div>
     )
