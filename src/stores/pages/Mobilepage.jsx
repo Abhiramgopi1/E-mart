@@ -24,7 +24,7 @@ function Mobilepage(){
 
         <div className="full-page">
 
-            <div className="pro-selected">
+            {/* <div className="pro-selected">
                 {
                     mobileData.map((phone)=>{
                         return(
@@ -40,7 +40,7 @@ function Mobilepage(){
                         )
                     })
                 }
-            </div>
+            </div> */}
 
 
             <div className="page-section">
@@ -48,6 +48,7 @@ function Mobilepage(){
                     filteredProduct.map((item)=>{
                         return(
                             <div>
+                                <center>
                                 <Link to={`/mobiles/${item.id}`}>
                                     <div className="pageimg">
                                         <img src={item.image} alt="" />
@@ -57,6 +58,7 @@ function Mobilepage(){
                                 <div className="promodel">
                                     {item.company}, {item.model}
                                 </div>
+                                </center>
                             </div>
                         )
                     })
