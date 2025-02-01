@@ -10,6 +10,7 @@ function Speakerpage(){
                 speakerData.map((item)=>{
                     return(
                         <div>
+                            <center>
                             <Link to={`/speaker/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
@@ -18,6 +19,7 @@ function Speakerpage(){
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>
+                            </center
                         </div>
                     )
                 })
