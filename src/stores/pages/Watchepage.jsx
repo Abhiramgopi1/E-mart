@@ -10,6 +10,7 @@ function Watchepage(){
                 watchData.map((item)=>{
                     return(
                         <div>
+                            <center>
                             <Link to = {`/Watches/${item.id}`}>
                             <div className="ind-img">
                                     <img src={item.image} alt="" />
@@ -19,6 +20,7 @@ function Watchepage(){
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>
+                            </center>
                         </div>
                     )
                 })
