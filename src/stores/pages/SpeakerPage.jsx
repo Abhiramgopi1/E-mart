@@ -19,7 +19,7 @@ function Speakerpage(){
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>
-                            </center
+                            </center>
                         </div>
                     )
                 })
