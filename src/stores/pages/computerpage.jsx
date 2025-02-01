@@ -11,6 +11,7 @@ function computerpage(){
                 computerData.map((item)=>{
                     return(
                         <div>
+                            <center>
                             <Link to = {`/computers/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
@@ -19,6 +20,7 @@ function computerpage(){
                             <div className="promodel">
                                 {item.company}, {item.model}
                             </div>
+                            </center>
                         </div>
                     )
                 })
