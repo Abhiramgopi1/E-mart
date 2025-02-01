@@ -9,6 +9,7 @@ function ACpage(){
                 acData.map((item)=>{
                     return(
                         <div>
+                             <center>
                             <Link to = {`/acs/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
@@ -17,6 +18,7 @@ function ACpage(){
                             <div className="promodel">
                                 {item.company}, {item.model}
                             </div>
+                            </center>
                         </div>
                     )
                 })
