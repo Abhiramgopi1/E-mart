@@ -7,11 +7,11 @@
 }
 
 body{
-  background-color: aliceblue;
+  background-color: #E2E0C8;
 }
 .navsection{
-   border: 1px solid black;
-   background-color: black;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   background-color: #818C78;
    color: white;
    display: flex;
    justify-content: space-between;
@@ -50,22 +50,33 @@ body{
   width: 80%;
 }
 
+.pro-title{
+  color: #818C78;
+}
 .pro-title h2{
   margin: 10px;
 }
 
 .subMenu{
-  background-color: darkslategray;
+  
+  background-color: #A7B49E;
   color: azure;
   height: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 .subMenu ul li{
   list-style: none;
   margin: 26px;
-  margin-top: 10px;
+  margin-top: 13px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
 }
 .subMenu ul{
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .page-section {
@@ -149,15 +160,22 @@ ul li{
   font-weight: 600;
 }
 
+.cart-it{
+  align-items: center;
+}
+
 
 .cart-section {
   display: flex;
   border: 3px double gray;
   width: 50%;
+  height: 300px;
   justify-content: center;
   align-items: center;
   margin: 50px;
 }
+
+
 
 .cart-img img {
   width: 50%;
@@ -168,9 +186,68 @@ ul li{
 }
 
 .itemcount{
-  width: 20px;
+  width: 60px;
+  height: 30px;
   text-align: center;
   background-color: black;
   color: white;
+  align-content: center;
 }
 
+
+.total-price{
+  text-align: center;
+}
+
+.more-menu {
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+.dropdown {
+  position: absolute;
+  background: #818C78;
+  list-style: none;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+
+    top: 25px;
+    left: auto;  /* Ensures it stays within parent */
+    right: 0;  /* Aligns dropdown inside the page */
+    flex-direction: column;
+    padding: 10px 0;
+    z-index: 1000; /* Ensures it's above other elements */
+    
+  
+}
+
+.dropdown li {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  color: black;
+}
+
+
+.addBtn{
+  width: 60px;
+  height: 30px;
+}
+
+.removeBtn{
+  width: 60px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.y-cart{
+  margin: 30px;
+}
