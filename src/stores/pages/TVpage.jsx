@@ -10,6 +10,7 @@ function TVpage(){
                 tvData.map((item)=>{
                     return(
                         <div>
+                            <center>
                             <Link to={`/TVs/${item.id}`}>
                             <div className="pageimg">
                                 <img src={item.image} alt="" />
@@ -18,6 +19,7 @@ function TVpage(){
                             <div className="promodel">
                                 {item.brand}, {item.model}
                             </div>
+                            </center>
                         </div>
                     )
                 })
