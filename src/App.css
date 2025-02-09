@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,19 +7,19 @@
   font-family: "PT Serif", serif;
 }
 
-body{
+body {
   background-color: #E2E0C8;
 }
-.navsection{
+
+.navsection {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-   background-color: #818C78;
-   color: white;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   height: 80px;
-   padding: 0px 50px;
-   
+  background-color: #818C78;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0px 50px;
 }
 
 .search-container {
@@ -31,84 +32,65 @@ body{
 
 .search-input {
   width: 80%;
-    height: 2rem;
-    border-radius: 10px;
-    padding-left: 10px;
-    font-weight: 400;
-    font-size: medium;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: medium;
 }
 
-.proSection{
+.proSection {
   display: flex;
 }
 
-.imgBox{
+.imgBox {
   width: 80%;
 }
 
-.proImage{
+.proImage {
   width: 80%;
 }
 
-.pro-title{
+.pro-title {
   color: #818C78;
 }
-.pro-title h2{
+
+.pro-title h2 {
   margin: 10px;
 }
 
-.subMenu{
-  
-  background-color: #A7B49E;
-  color: azure;
-  height: 50px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-.subMenu ul li{
-  list-style: none;
-  margin: 26px;
-  margin-top: 13px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  position: relative;
-}
-.subMenu ul{
+.full-page {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
 
 .page-section {
   display: grid;
-  grid-template-columns: repeat(4,300px);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  justify-content: space-around;
-  margin-left: 40px;
+  justify-content: center;
+  margin: 20px;
 }
 
-.pageimg{
-  width: 250px;
-  height: 250px;
+.page-section .pageimg img {
+  width: 100%;
+  height: auto;
 }
 
-.pageimg img{
-  width: 80%;
-  height: 90%;
-  margin: 10px;
-}
 
-.ind-img{
+.ind-img {
   width: 250px;
   height: 250px;
   margin: 30px;
 }
 
-.ind-page{
+.ind-page {
   display: flex;
 }
 
-.ind-img img{
+.ind-img img {
   width: 100%;
 }
 
@@ -116,7 +98,7 @@ body{
   margin: 10px;
 }
 
-.ind-details button{
+.ind-details button {
   background-color: gray;
   padding: 10px;
   width: 10rem;
@@ -124,29 +106,24 @@ body{
   color: white;
 }
 
-.full-page{
-  display: flex;
-}
-
-.pro-selected{
+.pro-selected {
   width: 30%;
   border: 1px solid black;
 }
 
-.pro-input input{
+.pro-input input {
   margin: 6px;
 }
 
-ul li{
+ul li {
   color: white;
-  
 }
 
 .custom-link {
   text-decoration: none;
 }
 
-.Cart{
+.Cart {
   color: white;
 }
 
@@ -160,10 +137,9 @@ ul li{
   font-weight: 600;
 }
 
-.cart-it{
+.cart-it {
   align-items: center;
 }
-
 
 .cart-section {
   display: flex;
@@ -175,8 +151,6 @@ ul li{
   margin: 50px;
 }
 
-
-
 .cart-img img {
   width: 50%;
 }
@@ -185,7 +159,7 @@ ul li{
   width: 50%;
 }
 
-.itemcount{
+.itemcount {
   width: 60px;
   height: 30px;
   text-align: center;
@@ -194,15 +168,40 @@ ul li{
   align-content: center;
 }
 
-
-.total-price{
+.total-price {
   text-align: center;
 }
 
+.subMenu {
+  background-color: #A7B49E;
+  color: azure;
+  height: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Needed for dropdown to be positioned inside */
+}
+
+.subMenu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.subMenu ul li {
+  cursor: pointer;
+  padding: 15px;
+}
+
+.subMenu ul li:hover{
+  color: black;
+}
 .more-menu {
   position: relative;
   cursor: pointer;
-  margin: 10px;
 }
 
 
@@ -216,15 +215,15 @@ ul li{
   display: flex;
   flex-direction: column;
   min-width: 150px;
-
-    top: 25px;
-    left: auto;  /* Ensures it stays within parent */
-    right: 0;  /* Aligns dropdown inside the page */
-    flex-direction: column;
-    padding: 10px 0;
-    z-index: 1000; /* Ensures it's above other elements */
-    
-  
+  left: auto;  /* Ensures it stays within parent */
+  right: 0;  /* Aligns dropdown inside the page */
+  flex-direction: column;
+  padding: 10px 0;
+  z-index: 1000; /* Ensures it's above other elements */
+    top: 80%;
+    width: auto;
+    max-width: 100%; /* Ensure it does not exceed the page width */
+    box-sizing: border-box; /* Prevent overflow outside of the parent */
 }
 
 .dropdown li {
@@ -236,18 +235,145 @@ ul li{
   color: black;
 }
 
-
-.addBtn{
+.addBtn {
   width: 60px;
   height: 30px;
 }
 
-.removeBtn{
+.removeBtn {
   width: 60px;
   height: 30px;
   margin-right: 20px;
 }
 
-.y-cart{
+.y-cart {
   margin: 30px;
+}
+
+/* Responsive design - Mobile and tablet view */
+
+/* Navbar */
+@media (max-width: 768px) {
+  .navsection {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    align-items: center;
+
+  }
+
+  .search-container {
+    width: 20%;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .page-section {
+    grid-template-columns: repeat(2, 1fr); /* Show 2 columns instead of 4 */
+    margin-right: 40px;
+    position: absolute;
+  }
+
+  .pageimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .ind-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Cart {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .Cart span {
+    font-size: 20px;
+  }
+
+  .cart-section {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cart-details {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .itemcount {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+/* Hide the more-menu dropdown on mobile */
+@media (max-width: 768px) {
+
+  .subMenu {
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+   }
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+    .subMenu::-webkit-scrollbar {
+        display: none;
+    }
+
+    .subMenu ul {
+      margin-bottom: 15px;
+       margin-right: 3px;
+       margin-left: 3px;
+        display: flex;
+        width: max-content; /* Ensures scrolling only when needed */
+        padding-bottom: 10px;
+    }
+
+    .subMenu ul li {
+        padding: 10px;
+        font-size: 18px;
+        list-style: none;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+  .more-menu {
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .dropdown {
+    position: absolute;  /* Ensures it appears outside parent */
+    top: 100%;           /* Places it directly below "More" */
+    left: 0;
+    background: #818C78;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    width: max-content;  /* Adjust width dynamically */
+}
+
+  
 }
