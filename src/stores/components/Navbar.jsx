@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-// import {FaUser} from 'react-icons/fa';
+import {FaUser} from 'react-icons/fa';
 
 
 function Navbar() {
@@ -18,7 +18,7 @@ function Navbar() {
                     <input type="text" placeholder="Search..." className="search-input" />
                 </div>
                 <div className="user">
-{/*                     <FaUser/> */}
+                    <FaUser/>
                     Login
                 </div>
                 <Link to="/cart" className="custom-link">
