@@ -12,7 +12,7 @@ function Watchepage(){
                         <div>
                             <center>
                             <Link to = {`/Watches/${item.id}`}>
-                            <div className="ind-img">
+                            <div className="pageimg">
                                     <img src={item.image} alt="" />
                                 </div>
 
